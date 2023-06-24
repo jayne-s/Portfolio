@@ -1,0 +1,88 @@
+html{
+  scroll-behavior: smooth;
+}
+
+main {
+    text-align: center;
+    vertical-align: center;
+    line-height: 100vh;
+  }
+  
+  body{
+    background-color: #1A2930;
+    color: #FFFFFF;
+    font-family: 'Gayathri', sans-serif;
+  }
+  .fa-solid fa-graduation-cap{
+    color: #FFFFFF;
+  }
+  .introduction{
+    padding-top: 150px;
+    text-align: center;
+  }
+  #container {
+      text-align: center;
+  }
+  
+  #text {
+	display: inline-block;
+	vertical-align: middle;
+	color: #F7CE3E;
+	letter-spacing: 2px;
+}
+
+  #cursor {
+	display: inline-block;
+	vertical-align: middle;
+	width: 3px;
+	height: 30px;
+	background-color: #F7CE3E;
+	animation: blink .75s step-end infinite;
+}
+
+@keyframes blink {
+	from, to { 
+		background-color: transparent 
+	}
+	50% { 
+		background-color: #F7CE3E; 
+	}
+}
+
+
+/* .buttonHub{
+  display: flex;
+} */
+
+button{
+  border-radius: 60%;
+  padding: 14px;
+  margin-right: 10px;
+  background-color: #F7CE3E;
+  align-items: center;
+}
+button:hover{
+  background-color: #FFFFFF;
+}
+
+/* .icon{
+  border-radius: 60%;
+  padding: 10px;
+  background-color: #F7CE3E;
+  align-items: center;
+} */
+
+/* .icon:hover{
+  background-color: #FFFFFF;
+} */
+
+.buttonIcon{
+  border-radius: 60%;
+  padding: 14px;
+  background-color: #F7CE3E;
+  align-items: center;
+  color: black;
+}
+.buttonIcon:hover{
+  background-color: #FFFFFF;
+}
