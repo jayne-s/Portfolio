@@ -1,16 +1,84 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<h1>Hello!</h1>
-  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Portfolio</title>
+   <script src="https://kit.fontawesome.com/73546715ae.js" crossorigin="anonymous"></script>
+  <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
-  
 <body>
+  <header>
+     <h1> Jayne Srinivas</h1>
+    <div class = "text"
+    <h4>Junior Electrical and Computer Engineering Student @ UT Dallas. Interested in VLSI/ASIC Design, Software Engineering/Data Analytics, Verification Testing, and Machine Learning. </h4>
+
+    </div>
+   <div class = "socials">
+    <a href="https://www.linkedin.com/in/jaynesrinivas" target="_blank"> <i class="fa-brands fa-linkedin" style="font-size:40px;color:#ffffff;padding:8px;"></i></a>
+
+    <a href=" https://github.com/jayne-s" target="_blank">
+      <i class="fa-brands fa-github" style="font-size:40px;color:#ffffff;padding:8px;"></i>
+    </a>
+  
+     <a href=" mailto:jaynesrinivas@gmail.com">  
+     <i class="fa-regular fa-envelope" style="font-size:40px;color:#ffffff; padding:8px;"></i>
+     </a>
+     
+    </div>
+    </header>
+
+  <hr style="display: block; height: 10px; border: 0; border-top: 1px solid #bcbcbc; margin: 1em 0; padding: 0;">
+  
+  <div class = "projectSection">
+    <h2 style= "text-align: center; padding-top: 30px;">Projects</h2>
+    
+    <div class = "container">
+      
+      <div class = "card">
+        <h3>Network Simulator</h3>
+        <ul>
+          <li>Discrete-Time Event Simulator built using Java</li>
+          <li>Leveraged Event-driven programming to send and receive network packets</li>
+        </ul>
+        <button onclick="getNetwork()">Code</button>
+      </div>
+
+      <div class = "card">
+        <h3>5-Stage Pipeline Processor</h3>
+        <ul>
+          <li>Developed a custom ISA and simulated a MIPS processor, using a Harvard architecture and behavioral features of Verilog HDL </li>
+          <li>Used techniques to handle data and control hazards</li>
+        </ul>
+        <button onclick="getProcessor()">Code</button>
+      </div>
+
+      <div class = "card">
+        <h3>Guide to Well-Being</h3>
+        <ul>
+          <li>Developed a full-stack application as part of the Fintech Focus Program to help users track their well-being, using Python, Flask, HTML, CSS, and Bootstrap </li>
+          <li>Created MVPs and presented to staff members at Morgan Stanley</li>
+        </ul>
+        <button onclick="getFintech()">Code</button>
+      </div>
+      
+      <div class = "card">
+        <h3>Arithmetic Logic Unit</h3>
+        <ul>
+          <li>Developed an ALU capable of performing arithmetic operations on 4-bit numbers </li>
+          <li>Programmed all modules at gate-level using Verilog</li>
+          <li>Created PCB Design of circuit using OrCAD X</li>
+        </ul>
+        <button onclick="getALU()">Code</button>
+      </div> 
+    
+  </div>
+
 
   
+  <script src="script.js"></script>
 </body>
 
-
-  
 </html>
