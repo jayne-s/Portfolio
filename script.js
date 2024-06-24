@@ -3,7 +3,7 @@ function getNetwork(){
 }
 
 function getProcessor(){
-  window.open("https://github.com/jayne-s/Single_Cycle_Processor");
+  window.open("https://github.com/jayne-s/Multicycle_Processor");
 }
 
 function getFintech(){
