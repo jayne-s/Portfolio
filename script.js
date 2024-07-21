@@ -13,3 +13,7 @@ function getFintech(){
 function getALU(){
   window.open("https://github.com/jayne-s/Arithmetic_Logic_Unit/tree/main");
 }
+
+function getResearch(){
+  window.open("https://github.com/jayne-s/ResearchProposal");
+}
