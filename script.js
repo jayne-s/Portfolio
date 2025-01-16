@@ -29,3 +29,11 @@ function getMatrix(){
 function getSorting(){
  window.open("https://github.com/jayne-s/SortingAlgorithms");
 }
+
+function getNotes(){
+ window.open("https://github.com/jayne-s/MusicalNotes");
+}
+
+function getGame(){
+ window.open("https://github.com/jayne-s/WorldBuilder");
+}
