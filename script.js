@@ -37,3 +37,7 @@ function getNotes(){
 function getGame(){
  window.open("https://github.com/jayne-s/WorldBuilder");
 }
+
+function getAmp(){
+  window.open("https://github.com/jayne-s/Signal_Processing");
+}
