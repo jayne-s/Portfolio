@@ -19,4 +19,13 @@ function getResearch(){
 }
 
 function getMasking(){
-  window.open(" https://github.com/jayne-s/BackMasking");
+  window.open("https://github.com/jayne-s/BackMasking");
+}
+
+function getMatrix(){
+  window.open("https://github.com/jayne-s/MatrixOperations");
+}
+
+function getSorting(){
+ window.open("https://github.com/jayne-s/SortingAlgorithms");
+}
