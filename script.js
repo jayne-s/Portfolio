@@ -17,3 +17,6 @@ function getALU(){
 function getResearch(){
   window.open("https://github.com/jayne-s/ResearchProposal");
 }
+
+function getMasking(){
+  window.open(" https://github.com/jayne-s/BackMasking");
