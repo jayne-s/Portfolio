@@ -85,17 +85,17 @@ button:hover{
   top: 0;
   z-index: 1;
   width: 100%;
-  background-color: #f1f1f1;
+  background-color: #454545;
 }
 
 .progress-container {
   width: 100%;
-  height: 8px;
-  background: #ccc;
+  height: 3px;
+  background: #454545;
 }
 
 .progress-bar {
-  height: 8px;
+  height: 3px;
   background: #04AA6D;
   width: 0%;
 }
