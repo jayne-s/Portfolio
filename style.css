@@ -85,7 +85,6 @@ button:hover{
   top: 5px;
   z-index: 1;
   padding: 5px;
-  display: flex;
   width: 100%;
   margin-right: 5%;
   background-color: #454545;
