@@ -1,7 +1,6 @@
 html {
   height: 100%;
   width: 100%;
-  
 }
 body{
  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -9,6 +8,7 @@ body{
   color: white;
   padding-bottom: 20px;
    margin: 20px;
+  padding-top: 10px;
 }
 
 h1, h2{
@@ -92,7 +92,6 @@ button:hover{
   width: 100%;
   top: 0; 
   left: 0; 
-  height: 5px;
   height: 3px;
   background: #454545;
 }
