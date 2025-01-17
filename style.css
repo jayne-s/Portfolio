@@ -59,14 +59,20 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 30%;
-  }
-  .h2{
-    padding-top: 30%;
-  }
+  } 
 }
 
-
+@media only screen and (max-width: 500px) {
+.container{
+  display: flex;
+  align-tems: center
+  justify-content: center;
+  padding-top: 30%;
+  }
+  .h2{
+    padding-top: 50%;
+  }
+}
 
 button{
   border-radius: 20%;
