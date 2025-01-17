@@ -84,13 +84,13 @@ button:hover{
   position: fixed;
   top: 0;
   z-index: 1;
-  width: 100%;
+  //width: 100%;
   margin-right: 5%;
   background-color: #454545;
 }
 
 .progress-container {
-  width: 100%;
+  //width: 100%;
   margin-right: 5%;
   height: 3px;
   background: #454545;
