@@ -4,7 +4,7 @@ html {
 }
 body{
  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  background-color: black;
+  background-color: #454545;
   color: white;
   padding-bottom: 20px;
   margin: 20px;
@@ -82,24 +82,20 @@ button:hover{
 
 .header {
   position: fixed;
-  top: 5px;
-  z-index: 1;
-  padding: 5px;
+  top: 0;
+  z-index: 999;
   width: 100%;
-  margin-right: 5%;
   background-color: #454545;
 }
 
 .progress-container {
   width: 100%;
-  margin-right: 5%;
   height: 3px;
   background: #454545;
 }
 
 .progress-bar {
   height: 3px;
-  margin-right: 5%;
   background: aqua;
   width: 0%;
 }
