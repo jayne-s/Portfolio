@@ -35,7 +35,7 @@ header{
 
 .projectSection{
   background-color: #454545;
-  padding-top: 5%;
+  padding-top: 2%;
 }
 
 .container{
@@ -90,8 +90,6 @@ button:hover{
 
 .progress-container {
   width: 100%;
-  top: 0; 
-  left: 0; 
   height: 3px;
   background: #454545;
 }
