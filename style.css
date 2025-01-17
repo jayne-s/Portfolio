@@ -93,14 +93,14 @@ button:hover{
 
 .progress-container {
   width: 100%;
-  /*margin-right: 5%;*/
+  margin-right: 5%;
   height: 3px;
   background: #454545;
 }
 
 .progress-bar {
   height: 3px;
-  /*margin-right: 5%;*/
+  margin-right: 5%;
   background: aqua;
   width: 0%;
 }
