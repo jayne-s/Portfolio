@@ -61,7 +61,12 @@ header{
     justify-content: center;
     padding-top: 30%;
   }
+  .h2{
+    padding-top: 30%;
+  }
 }
+
+
 
 button{
   border-radius: 20%;
