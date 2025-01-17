@@ -42,6 +42,10 @@ function getAmp(){
   window.open("https://github.com/jayne-s/Signal_Processing");
 }
 
+function getSite(){
+  window.open("https://github.com/jayne-s/Portfolio");
+}
+
 window.onscroll = function() {myFunction()};
 
 function myFunction() {
