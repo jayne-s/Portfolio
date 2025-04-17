@@ -46,6 +46,10 @@ function getSite(){
   window.open("https://github.com/jayne-s/Portfolio");
 }
 
+function getURSA(){
+   window.open("https://drive.google.com/file/d/1RbxyST9_oIBE8QS2DCuL7QXl_GPiAWQN/view?usp=sharing");
+}
+
 window.onscroll = function() {myFunction()};
 
 function myFunction() {
