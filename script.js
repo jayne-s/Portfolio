@@ -54,3 +54,34 @@ function myFunction() {
   var scrolled = (winScroll / height) * 100;
   document.getElementById("myBar").style.width = scrolled + "%";
 }
+
+const typewriterText = "Junior Electrical and Computer Engineering Student @ UT Dallas. Interested in ASIC Design, Computing & ML, SWE, and IOT.";
+let i = 0;
+let isDeleting = false;
+let speed = 100;
+
+function loopTypewriter() {
+  const target = document.getElementById("typewriter");
+
+  if (isDeleting) {
+    target.innerHTML = typewriterText.substring(0, i--);
+    speed = 80;
+  } else {
+    target.innerHTML = typewriterText.substring(0, i++);
+    speed = 100;
+  }
+
+  if (!isDeleting && i === typewriterText.length + 1) {
+    isDeleting = true;
+    speed = 1500; 
+  } else if (isDeleting && i === 0) {
+    isDeleting = false;
+    speed = 700; 
+  }
+
+  setTimeout(loopTypewriter, speed);
+}
+
+window.onload = function () {
+  loopTypewriter();
+};
