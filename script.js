@@ -22,12 +22,12 @@ function getMasking(){
   window.open("https://github.com/jayne-s/BackMasking");
 }
 
-function getMatrix(){
-  window.open("https://github.com/jayne-s/MatrixOperations");
+function getThread(){
+  window.open("https://github.com/jayne-s/OSProject1");
 }
 
-function getSorting(){
- window.open("https://github.com/jayne-s/SortingAlgorithms");
+function getMemory(){
+ window.open("https://github.com/jayne-s/OSProject2");
 }
 
 function getNotes(){
@@ -46,10 +46,6 @@ function getSite(){
   window.open("https://github.com/jayne-s/Portfolio");
 }
 
-function getURSA(){
-   window.open("https://drive.google.com/file/d/1RbxyST9_oIBE8QS2DCuL7QXl_GPiAWQN/view?usp=sharing");
-}
-
 window.onscroll = function() {myFunction()};
 
 function myFunction() {
@@ -59,7 +55,7 @@ function myFunction() {
   document.getElementById("myBar").style.width = scrolled + "%";
 }
 
-const typewriterText = "Junior Electrical and Computer Engineering Student @ UT Dallas. Interested in ASIC Design, Computing & ML, SWE, and IoT.";
+const typewriterText = "Junior Electrical and Computer Engineering Student @ UT Dallas. Interested in ASIC Design, Computing & ML, SWE, and IOT.";
 let i = 0;
 let isDeleting = false;
 let speed = 100;
