@@ -30,8 +30,8 @@ function getMemory(){
  window.open("https://github.com/jayne-s/OSProject2");
 }
 
-function getNotes(){
- window.open("https://github.com/jayne-s/MusicalNotes");
+function getWarehouse(){
+ window.open("https://github.com/jayne-s/WarehouseManagementSystem");
 }
 
 function getGame(){
