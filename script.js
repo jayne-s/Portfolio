@@ -55,7 +55,7 @@ function myFunction() {
   document.getElementById("myBar").style.width = scrolled + "%";
 }
 
-const typewriterText = "Junior Electrical and Computer Engineering Student @ UT Dallas. Interested in ASIC Design, Computing & ML, SWE, and IOT.";
+const typewriterText = "Junior Electrical and Computer Engineering Student @ UT Dallas. Interested in ASIC Design, Computing & ML, SWE, and IoT.";
 let i = 0;
 let isDeleting = false;
 let speed = 100;
