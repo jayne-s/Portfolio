@@ -34,8 +34,8 @@ function getWarehouse(){
  window.open("https://github.com/jayne-s/WarehouseManagementSystem");
 }
 
-function getGame(){
- window.open("https://github.com/jayne-s/WorldBuilder");
+function getAlgos(){
+ window.open("https://github.com/jayne-s/OSProject3");
 }
 
 function getAmp(){
