@@ -1,0 +1,164 @@
+/* -------------------
+   GLOBAL STYLES
+--------------------*/
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+h1, h2, h3 {
+    font-family: "Segoe UI", sans-serif;
+    font-weight: 600;
+}
+
+/* -------------------
+   NAVIGATION 
+--------------------*/
+.topnav {
+  background-color: #111;
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topnav a {
+  color: #eee;
+  padding: 14px 18px;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 3px solid transparent;
+}
+
+.topnav a:hover {
+  border-bottom: 3px solid #ff6961;
+}
+
+.topnav a.active {
+  border-bottom: 3px solid #ff6961;
+}
+
+.nav-icons a {
+  padding: 14px 10px;
+  font-size: 20px;
+}
+
+/* -------------------
+   PAGE CONTAINER
+--------------------*/
+.page-container {
+    background: #fff;
+    width: 80%;
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 40px 50px;
+    border-radius: 12px;
+    box-shadow: 0 5px 18px rgba(0,0,0,0.1);
+}
+
+.section-title {
+    font-size: 32px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    padding-left: 5px;
+}
+
+/* -------------------
+   TIMELINE 
+--------------------*/
+.timeline {
+  position: relative;
+  margin: 25px 0;
+  padding-left: 20px;
+}
+
+/* Vertical line */
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 4px;
+  height: 100%;
+  background: #ff6961;
+  transform: translateX(-50%);
+  border-radius: 4px;
+}
+
+/* Each timeline entry */
+.container {
+  position: relative;
+  width: 50%;
+  padding: 20px 30px;
+}
+
+.left {
+  left: 0;
+  text-align: right;
+}
+
+.right {
+  left: 50%;
+}
+
+/* Connecting dots */
+.container::after {
+  content: "";
+  position: absolute;
+  top: 28px;
+  width: 18px;
+  height: 18px;
+  background: white;
+  border: 4px solid #ff6961;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.left::after {
+  right: -9px;
+}
+
+.right::after {
+  left: -9px;
+}
+
+/* Content box */
+.content {
+  background: #fafafa;
+  padding: 20px 25px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.content h2 {
+  margin-top: 0;
+  font-size: 20px;
+  color: #ff6961;
+}
+
+/* -------------------
+   RESPONSIVE 
+--------------------*/
+@media (max-width: 700px) {
+  /* Make the timeline line left-aligned */
+  .timeline::before {
+    left: 22px;
+  }
+
+  .container {
+    width: 100%;
+    padding-left: 55px;
+    padding-right: 20px;
+    text-align: left;
+  }
+
+  .container::after {
+    left: 15px;
+  }
+
+  .right {
+    left: 0;
+  }
+}

@@ -1,156 +1,120 @@
-:root {
-  --primary: #0a192f;
-  --accent: #64ffda;
-  --text: #e6f1ff;
-  --highlight: white;
+ /* -------------------
+   GLOBAL STYLES
+--------------------*/
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
 }
 
-html, body {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  background-color: var(--primary);
-  color: var(--text);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+/* Better heading spacing & consistency */
+h1, h2, h3 {
+    font-family: "Segoe UI", sans-serif;
+    font-weight: 600;
 }
 
-h1, h2 {
-  color: var(--accent);
-  text-align: center;
-  margin: 0.5em 0;
-}
-
-h2 {
-  padding-top: 2em;
-}
-
-.header {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background-color: var(--primary);
-  z-index: 999;
-  padding-bottom: 1em;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
-}
-
-.text {
-  margin: 0 auto;
-  width: 80%;
-  max-width: 800px;
-  text-align: center;
-  padding: 10px;
-  min-height: 50px;
-}
-
-.socials {
+/* -------------------
+   NAVIGATION BAR
+--------------------*/
+.topnav {
+  background-color: #111;
+  overflow: hidden;
+  padding: 0 10px;
   display: flex;
-  justify-content: center;
-  gap: 1rem;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.socials i {
-  font-size: 30px;
-  color: var(--highlight);
-  padding: 10px;
-  transition: transform 0.2s ease-in-out;
+/* Left links */
+.topnav a {
+  display: block;
+  color: #eee;
+  padding: 14px 18px;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 3px solid transparent;
 }
 
-.socials i:hover {
-  transform: scale(1.1);
-  color: var(--accent);
+.topnav a:hover {
+  border-bottom: 3px solid #ff4c4c;
 }
 
-.projectSection {
-  margin-top: 250px;
-  padding: 20px;
+.topnav a.active {
+  border-bottom: 3px solid #ff4c4c;
 }
 
-.container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 2rem;
+/* Social icon container */
+.nav-icons a {
+  display: inline-block;
+  padding: 14px 10px;
+  font-size: 20px;
 }
 
-.card {
-  background-color: #112240;
-  padding: 20px;
-  border-radius: 15px;
-  max-width: 400px;
-  width: 90%;
-  color: var(--text);
-  border: 1px solid var(--accent);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
-  transition: transform 0.2s ease;
+/* -------------------
+   VIDEO HERO SECTION
+--------------------*/
+.video-background-section {
+    width: 100%;
+    height: 60vh;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 40px;
 }
 
-.card:hover {
-  transform: translateY(-5px);
+.video-bg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    filter: brightness(65%); /* Makes text readable */
 }
 
-.card h3 {
-  color: var(--accent);
+.section-content {
+    position: relative;
+    z-index: 2;
+    color: white;
+    text-align: center;
+    top: 25%;
 }
 
-button {
-  margin-top: 10px;
-  padding: 10px 20px;
-  border: none;
-  background-color: var(--accent);
-  color: #0a192f;
-  font-weight: bold;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: all 0.2s ease-in-out;
+.tagline {
+    font-size: 22px;
+    letter-spacing: 1px;
+    opacity: 0.9;
 }
 
-button:hover {
-  background-color: var(--highlight);
-  transform: scale(1.05);
+.hero-name {
+    font-size: 60px;
+    margin-top: 10px;
+    text-shadow: 0 4px 10px rgba(0,0,0,0.4);
 }
 
-.progress-container {
-  width: 100%;
-  height: 4px;
-  background: #1f2937;
+/* -------------------
+   SUMMARY / ABOUT
+--------------------*/
+.summary-section {
+    width: 75%;
+    max-width: 900px;
+    margin: auto;
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 5px 18px rgba(0,0,0,0.1);
+    margin-bottom: 50px;
 }
 
-.progress-bar {
-  height: 4px;
-  background: var(--accent);
-  width: 0%;
-  transition: width 0.3s ease-in-out;
+.summary-section h1 {
+    margin-bottom: 15px;
+    font-size: 32px;
 }
 
-@media (max-width: 768px) {
-  .container {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .card {
-    width: 90%;
-  }
-
-  .text {
-    width: 90%;
-    font-size: 0.9em;
-  }
-
-  h1 {
-    font-size: 1.5em;
-  }
+.summary-section p {
+    font-size: 18px;
+    line-height: 1.6;
 }
 
-#typewriter::after {
-  content: "|";
-  animation: blink 1s infinite;
-}
-
-@keyframes blink {
-  0% { opacity: 1; }
-  50% { opacity: 0; }
-  100% { opacity: 1; }
-}
 

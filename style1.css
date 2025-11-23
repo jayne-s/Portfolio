@@ -1,0 +1,121 @@
+/* -------------------
+   GLOBAL
+--------------------*/
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+h1, h2, h3 {
+    font-family: "Segoe UI", sans-serif;
+    font-weight: 600;
+}
+
+/* -------------------
+   NAVIGATION BAR
+--------------------*/
+.topnav {
+  background-color: #111;
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topnav a {
+  color: #eee;
+  padding: 14px 18px;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 3px solid transparent;
+}
+
+.topnav a:hover {
+  border-bottom: 3px solid #ff6961;
+}
+
+.topnav a.active {
+  border-bottom: 3px solid #ff6961;
+}
+
+.nav-icons a {
+  font-size: 20px;
+  padding: 14px 10px;
+}
+
+/* -------------------
+   PAGE WRAPPER
+--------------------*/
+.projects-wrapper {
+    width: 85%;
+    max-width: 1200px;
+    margin: 40px auto;
+}
+
+/* Section headers */
+.section-title {
+    font-size: 32px;
+    margin: 40px 0 20px;
+    text-align: left;
+}
+
+/* -------------------
+   CARD GRID
+--------------------*/
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    grid-gap: 25px;
+}
+
+/* -------------------
+   CARD STYLING
+--------------------*/
+.card {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.09);
+    transition: 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+.card h3 {
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+.card ul {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.card button {
+    background-color: #ff6961;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.card button:hover {
+    background-color: #ff534d;
+}
+
+/* -------------------
+   RESPONSIVE
+--------------------*/
+@media (max-width: 600px) {
+  .section-title {
+    text-align: center;
+  }
+}
