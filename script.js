@@ -15,7 +15,7 @@ function getALU(){
 }
 
 function getResearch(){
-  window.open("https://github.com/jayne-s/ResearchProposal");
+  window.open("https://zenodo.org/records/17478150");
 }
 
 function getMasking(){
